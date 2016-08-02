@@ -85,11 +85,12 @@ background:#008B8B;
 }
 .menu a {
     transition:all linear 0.15s;
-    color:#919191;
+    color:#9400D3;
 }
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#be5b70;
+    //color:blue;
 }
 .menu .arrow {
     font-size:11px;
@@ -123,7 +124,8 @@ background:#008B8B;
     opacity:0;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
+    //background:#2e2728;
+    background:#00FFFF;
 }
 .sub-menu li {
     display:block;
@@ -134,49 +136,58 @@ background:#008B8B;
     display:block;
 }
 .sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
+   // background:#3e3436;
+    //background:cyan;
+}
+a.al:hover
+{
+color:#D2691E;
+}
+h4.h4:hover
+{
+color:#D2691E;
 }
 </style>
 <body onload="runBGSlideShow()">
 <div class='top'> 
-<a href='http://192.168.0.1/login.html' id='amenu'>Sign in</a>
-<a href='http://192.168.0.1/signup.html' id='amenu1'>Sign up</a>
+<a href='http://192.168.0.1/login.html' id='amenu'><b>Sign in</b></a>
+<a href='http://192.168.0.1/signup.html' id='amenu1'><b>Sign up</b></a>
 <h2><b>Welcome to my cloud</b></h2>
 </div>
 <div class='top2'>
 <nav class="menu">
         <ul class="clearfix">
-            <li><a href="#" style='text-decoration:none;margin-top:-10px;color:black;'>Home</a></li>
+            <li><a href="#" class='al' style='text-decoration:none;margin-top:-35px;color:#e1e1e1;'><h4 class='h4'>Home</h4></a></li>
             <li>
-                <a href="#" style='text-decoration:none;margin-top:-10px;color:black;'>Services<span class="arrow">&#9660;</span></a>
+                <a href="#" class='al' style='text-decoration:none;margin-top:-35px;color:#e1e1e1;'><h4 class='h4'>Services<span class="arrow">&#9660;</span></h4></a>
  
                 <ul class="sub-menu">
-                    <li><a href="#" style='text-decoration:none;'>Software as a service</a></li>
-                    <li><a href="#" style='text-decoration:none;'>Storage as a service</a></li>
-                    <li><a href="#" style='text-decoration:none;'>Infrastructure as a service</a></li>
-                    <li><a href="#" style='text-decoration:none;'>Container as a service</a></li>
-		    <li><a href="#" style='text-decoration:none;'>Platform as a service</a></li>
-		    <li><a href="#" style='text-decoration:none;'>Database as a service</a></li>
+                    <li><a href="#" class='al' style='text-decoration:none;'>Software as a service</a></li>
+                    <li><a href="#" class='al' style='text-decoration:none;'>Storage as a service</a></li>
+                    <li><a href="#" class='al' style='text-decoration:none;'>Infrastructure as a service</a></li>
+                    <li><a href="#" class='al' style='text-decoration:none;'>Container as a service</a></li>
+		    <li><a href="#" class='al' style='text-decoration:none;'>Platform as a service</a></li>
+		    <li><a href="#" class='al' style='text-decoration:none;'>Database as a service</a></li>
                 </ul>
             </li>
             <li>
-		<a href="#" style='text-decoration:none;margin-top:-10px;color:black;'>Products<span class="arrow">&#9660;</span></a>
+		<a href="#" style='text-decoration:none;margin-top:-35px;color:#e1e1e1;'><h4 class='h4'>Products<span class="arrow">&#9660;</span></h4></a>
 		<ul class='sub-menu'>
-			<li><a href="#" style='text-decoration:none;'>Block volume(BV)</a></li>
-			<li><a href="#" style='text-decoration:none;'>Fast compute cloud(FCC)</a></li>
-			<li><a href="#" style='text-decoration:none;'>Container in the cloud(CITC)</a></li>
-			<li><a href="#" style='text-decoration:none;'>Mysql services(MS)</a></li>
-			<li><a href="#" style='text-decoration:none;'>Typical storage service(TSS)</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Block volume(BV)</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Fast compute cloud(FCC)</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Container in the cloud(CITC)</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Mysql services(MS)</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Typical storage service(TSS)</a></li>
 		</ul>
 	    </li>
             <li class="current-item">
-		<a href="#" style='text-decoration:none;margin-top:-10px;color:black;'>Photos<span class="arrow">&#9660;</span></a>
+		<a href="#" class='al' style='text-decoration:none;margin-top:-35px;color:#e1e1e1;'><h4 class='h4'>FAQ<span class="arrow">&#9660;</span></h4></a>
 		<ul class='sub-menu'>
-			<li><a href="#" style='text-decoration:none;'>View photos</a></li>
-			<li><a href="#" style='text-decoration:none;'>Add photos</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Ask Questions</a></li>
+			<li><a href="#" class='al' style='text-decoration:none;'>Give Suggestion</a></li>
 		</ul>
 	    </li>
-            <li><a href="#" style='text-decoration:none;margin-top:-10px;color:black;'>Help</a></li>
+            <li><a href="#" class='al' style='text-decoration:none;margin-top:-35px;color:#e1e1e1;'><h4 class='h4'>Help</h4></a></li>
         </ul>
     </nav>
 </div>
